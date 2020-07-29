@@ -8,7 +8,7 @@ Author: Catherine Meng
 add_action( 'init', 'bccamp_custom_post_custom_textbooks' );
 add_action( 'init', 'bccamp_custom_block_text_box' );
 add_action( 'init', 'bccamp_custom_block_dropdown' );
-add_action( 'init', 'bccamp_custom_block_data_fieldn' );
+add_action( 'init', 'bccamp_custom_block_data_field' );
 
 function bccamp_custom_post_custom_textbooks() {
     $labels = array(
