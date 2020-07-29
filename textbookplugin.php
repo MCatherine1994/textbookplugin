@@ -10,7 +10,7 @@ add_action( 'init', 'bccamp_custom_block_text_box' );
 add_action( 'init', 'bccamp_custom_block_dropdown' );
 add_action( 'init', 'bccamp_custom_block_data_fieldn' );
 
-function ht_custom_post_custom_article() {
+function bccamp_custom_post_custom_textbooks() {
     $labels = array(
         'name' => __( 'Textbooks' ),
         'singular_name' => __( 'Textbook' ),
