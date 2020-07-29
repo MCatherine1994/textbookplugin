@@ -54,7 +54,7 @@ function bccamp_custom_block_dropdown(){
     );
     wp_enqueue_style(
 		'block_dropdown-css',
-		plugin_dir_url( __FILE__ ) . 'block_dropdown-css.css',
+		plugin_dir_url( __FILE__ ) . 'block_dropdown_css.css',
         array( 'wp-edit-blocks' ),
         true
 	);
